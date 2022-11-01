@@ -1,0 +1,206 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --logo-black-color: #000000;
+  --adr-footer-color: rgba(255, 255, 255, 0.6);
+  --primary-white-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --comand-background-color: #f5f4fa;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+/*Навігація*/
+.site-nav,
+.header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-header {
+  color: var(--logo-black-color);
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.header-address .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.header-address .link:hover,
+.header-address .link:focus {
+  color: var(--accent-color);
+}
+/*Герой*/
+.hero {
+  background-color: var(--hero-background-color);
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  align-items: center;
+  text-align: center;
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--title-color);
+  background-color: var(--comand-background-color);
+}
+/* Переваги */
+.section-title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section-feature .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-feature .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*Чим ми займаємось*/
+
+/* Наша команда */
+.section-team {
+  background-color: var(--comand-background-color);
+}
+.section-team .title {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section-team .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Футер */
+.site-footer {
+  background-color: var(--hero-background-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+.footer-address {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+}
+.post-adr {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+.mob-adr {
+  color: var(--adr-footer-color);
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+.post-adr:hover,
+.post-adr:focus,
+.mob-adr:hover,
+.mob-adr:focus {
+  color: var(--accent-color);
+}
+
+/* Сторінка Портфоліо */
+/*Фільтр */
+.section-filter .name {
+  color: var(--title-color);
+  text-align: center;
+}
+
+.button-filter {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  align-items: center;
+  text-align: center;
+}
+
+.button-filter.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button-filter.secondary {
+  color: var(--title-color);
+  background-color: var(--comand-background-color);
+}
+.section-filter .element {
+  text-decoration: none;
+}
+.section-filter .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-filter .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1, 88;
+ 
+}
