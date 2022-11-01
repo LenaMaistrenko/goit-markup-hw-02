@@ -84,6 +84,7 @@ body {
 
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 .button.primary {
   color: var(--primary-white-color);
@@ -177,6 +178,7 @@ body {
   line-height: 1.62;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .button-filter.primary {
@@ -187,6 +189,7 @@ body {
 .button-filter.secondary {
   color: var(--title-color);
   background-color: var(--comand-background-color);
+  
 }
 .section-filter .element {
   text-decoration: none;
