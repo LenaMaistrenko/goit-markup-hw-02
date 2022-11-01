@@ -27,7 +27,6 @@ body {
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
-  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -145,14 +144,10 @@ body {
 }
 .post-adr {
   color: var(--primary-white-color);
-  font-size: 14px;
-  line-height: 1.7;
   text-decoration: none;
 }
 .mob-adr {
   color: var(--adr-footer-color);
-  font-size: 14px;
-  line-height: 1.7;
   text-decoration: none;
 }
 .post-adr:hover,
@@ -189,7 +184,6 @@ body {
 .button-filter.secondary {
   color: var(--title-color);
   background-color: var(--comand-background-color);
-  
 }
 .section-filter .element {
   text-decoration: none;
@@ -205,5 +199,4 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1, 88;
- 
 }
