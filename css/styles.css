@@ -12,14 +12,13 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 /*Навігація*/
 .site-nav,
 .header-address {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -69,34 +68,42 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   text-align: center;
   text-transform: uppercase;
 }
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-
   align-items: center;
   text-align: center;
   cursor: pointer;
 }
+
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--title-color);
+  background-color: var(--comand-background-color);
 }
 .button.secondary {
   color: var(--title-color);
   background-color: var(--comand-background-color);
 }
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 /* Переваги */
 .section-title {
   color: var(--title-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -105,13 +112,11 @@ body {
 .section-feature .title {
   color: var(--title-color);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .section-feature .text {
-  font-size: 14px;
   line-height: 1.71;
 }
 /*Чим ми займаємось*/
@@ -119,17 +124,15 @@ body {
 /* Наша команда */
 .section-team {
   background-color: var(--comand-background-color);
+  font-size: 16px;
+  line-height: 1.19;
 }
 .section-team .title {
   color: var(--title-color);
+  font-size: 16px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
 }
-.section-team .text {
-  font-size: 16px;
-  line-height: 1.19;
-}
+
 /* Футер */
 .site-footer {
   background-color: var(--hero-background-color);
@@ -138,7 +141,6 @@ body {
   color: var(--primary-white-color);
 }
 .footer-address {
-  font-size: 14px;
   font-style: normal;
   line-height: 1.7;
 }
@@ -167,7 +169,7 @@ body {
 .button-filter {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -180,10 +182,19 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
+.button-filter.primary:hover,
+.botton-filter.primary:focus {
+  color: var(--title-color);
+  background-color: var(--comand-background-color);
+}
 .button-filter.secondary {
   color: var(--title-color);
   background-color: var(--comand-background-color);
+}
+.button-filter.secondary:hover,
+.botton-filter.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .section-filter .element {
   text-decoration: none;
@@ -198,5 +209,5 @@ body {
 .section-filter .text {
   color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
 }
