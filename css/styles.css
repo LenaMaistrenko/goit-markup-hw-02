@@ -7,6 +7,7 @@
   --primary-white-color: #ffffff;
   --hero-background-color: #2f303a;
   --comand-background-color: #f5f4fa;
+  --hero-button-accent: #188ce8;
 }
 body {
   color: var(--primary-text-color);
@@ -81,6 +82,7 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 
 .button.primary {
@@ -89,18 +91,9 @@ body {
 }
 .button.primary:hover,
 .button.primary:focus {
-  color: var(--title-color);
-  background-color: var(--comand-background-color);
+  background-color: var(--hero-button-accent);
 }
-.button.secondary {
-  color: var(--title-color);
-  background-color: var(--comand-background-color);
-}
-.button.secondary:hover,
-.button.secondary:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
+
 /* Переваги */
 .section-title {
   color: var(--title-color);
@@ -113,6 +106,7 @@ body {
   color: var(--title-color);
   font-weight: 700;
   line-height: 1.14;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -192,7 +186,7 @@ body {
   background-color: var(--comand-background-color);
 }
 .button-filter.secondary:hover,
-.botton-filter.secondary:focus {
+.button-filter.secondary:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
