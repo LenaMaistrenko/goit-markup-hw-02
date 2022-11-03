@@ -2,12 +2,12 @@
   --primary-text-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
+  --hero-button-accent: #188ce8;
   --logo-black-color: #000000;
   --adr-footer-color: rgba(255, 255, 255, 0.6);
   --primary-white-color: #ffffff;
   --hero-background-color: #2f303a;
   --comand-background-color: #f5f4fa;
-  --hero-button-accent: #188ce8;
 }
 body {
   color: var(--primary-text-color);
